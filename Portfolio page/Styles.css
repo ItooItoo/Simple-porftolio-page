@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&display=swap');
+
+
+body{
+    background: linear-gradient(-45deg, #202b30,#2c4953,hsl(198, 36%, 32%));
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #686de0;
+}
+
+ul{
+    width: auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: #7ed6df;
+    padding: 20px;
+    font-size: 20px;
+}
+
+li{
+    display: inline-block;
+    padding: 6px;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+}
+
+.leftsign{
+   position: absolute;
+   margin: 2px; 
+   padding: 5px;
+   font-family: 'Source Code Pro', monospace;
+   font-weight: bold;
+   font-size: 40px;
+   color: #c7ecee;
+
+}
+
+a:hover{
+    color: #535c68;
+    transition: 0.3s;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-top: 35px;
+    margin-right: 1000px;
+}
+
+.contactText{
+    padding: 20px;
+    font-size: 32px;
+    font-family: 'Asap', sans-serif;
+}
+
+.firstText{
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+    border: solid 2px;
+    align-self: flex-start;
+}
+.secondText{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+    border: solid 2px;
+    align-self: flex-end;
+}
+
+.thirdText{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+    border: solid 2px;
+    align-self: flex-start;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Asap', sans-serif;
+    padding: 20px;
+    width: 1400px;
+    height: 200px;
+    float: right;
+}
+
+
+.column{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.href-in-text{
+    font-size: 16px;
+    padding: 0px;
+    color: lightblue;
+}
+
+#r3{
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 1000px;
+}
+
